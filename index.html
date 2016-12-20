@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maxinum-scale=1,user-scale=no,width=device-width">
+    <title>index</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+    <script src="pages/funs/funsCtrl.js"></script>
+    <script src="pages/rooms/roomsCtrl.js"></script>
+    <script src="pages/foods/foodsCtrl.js"></script>
+    <script src="pages/meetings/meetingsCtrl.js"></script>
+    <script src="pages/weedings/weedingsCtrl.js"></script>
+    <script src="pages/business/businessCtrl.js"></script>
+
+
+</head>
+<body class="index" ng-controller="mainCtrl" >
+<!--首页  北苑大酒店 -->
+<!--副标题-->
+<div class="main" ng-view="">
+
+</div>
+<div class="rihgt_menu_list" ng-class="showRight?'showRightMenu':'hideRightMenu'">
+    <div class="logo">
+        <a href="javascript:;" ng-click="hideRightMenu()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </a>
+    </div>
+
+    <div class="a_nav">
+        <div class="mid">
+            <a href="#/" ng-click="hideRightMenu()">首页</a>
+            <a href="#funs" ng-click="hideRightMenu()">康体娱乐</a>
+            <a href="#meetings" ng-click="hideRightMenu()">会议会展</a>
+            <a href="#weedings" ng-click="hideRightMenu()">婚宴婚庆</a>
+            <a href="#rooms" ng-click="hideRightMenu()">舒适客房</a>
+            <a href="#foods" ng-click="hideRightMenu()">餐饮美食</a>
+            <a href="#business" ng-click="hideRightMenu()">商务办公</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
