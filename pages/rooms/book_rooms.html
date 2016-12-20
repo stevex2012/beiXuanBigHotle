@@ -1,0 +1,81 @@
+<div class="wenquan rooms_details book_rooms">
+    <div class="subheader">
+        <h4>客房预定
+            <a href="#luxury_room" ng-click="hideRightMenu()"><</a>
+            <a href="javascript:;" ng-click="showRightMenu()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </a>
+        </h4>
+    </div>
+    <div class="lunbo_box">
+        <ul class="img_box">
+            <li><img src="images/rooms_pic4.png" alt=""></li>
+            <li><img src="images/rooms_pic4.png" alt=""></li>
+        </ul>
+        <div class="dot_box">
+            <i class="ac"></i>
+            <i></i>
+        </div>
+    </div>
+    <div class="book_list_details">
+        <h6>豪华套房</h6>
+        <form action="post">
+            <label>房间数量
+                <div class="book_nums_box">
+                    <a href="javascript:;" class="add_btn" ng-click="reduce_btn()"></a>
+                    <span>{{bookRoomNum}}</span>
+                    <a href="javascript:;" class="reduce_btn" ng-click="add_btn()"></a>
+                </div>
+            </label>
+            <label >
+                入住时间：<input type="text" value="2016年10月26日"/>
+            </label>
+            <label >
+                退房时间：<input type="text" value="2016年10月27日"/>
+            </label>
+            <label >
+               备注：<input type="text" placeholder="如有附加需求，请填写"/>
+            </label>
+            <label for="">
+                联系人：<input type="text" placeholder="请输入姓名"/>
+                <div class="sex_centain">
+                    <input type="radio" name="sex" value="男" checked>先生
+                    <input type="radio" name="sex" value="女">女士
+                </div>
+            </label>
+            <label for="">
+                手机号：<input type="text" placeholder="请输入手机号"/>
+            </label>
+        </form>
+        <div class="tabs_rooms_rules">
+            <div class="mention_titles">
+                <div class="title_1 " ng-click="show_1()" ng-class="show_p1?'ac':''">入房须知</div>
+                <div class="title_2 " ng-click="show_2()" ng-class="show_p2?'ac':''">客房介绍</div>
+            </div>
+            <div class="detail_rules">
+                <p class="p_1" ng-show="show_p1">
+                    <span>- 在未提供公司或信用卡担保的情况下，酒店最多保留预订至到 店当天下午6点（视酒店当日情况而定）</span>
+                    <span>- 在未提供公司或信用卡担保的情况下，酒店最多保留预订至到 店当天下午6点（视酒店当日情况而定）</span>
+                    <span>- 在未提供公司或信用卡担保的情况下，酒店最多保留预订至到 店当天下午6点（视酒店当日情况而定）</span>
+                    <span>- 在未提供公司或信用卡担保的情况下，酒店最多保留预订至到 店当天下午6点（视酒店当日情况而定）</span>
+                </p>
+                <p class="p_2" ng-show="show_p2">
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                    <span>入房须知入房须知入房须知入房须知入房须知入房须知入房须知</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="money_check">
+        <span>总金额：<b>{{prices[0]*bookRoomNum}}</b>￥</span>
+        <a href="javascript:;">立即支付</a>
+    </div>
+</div>
