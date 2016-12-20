@@ -1,0 +1,145 @@
+/*样式预设 */
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: Arial, "微软雅黑";
+}
+.clearfix:after {
+  content: '';
+  height: 0;
+  font-size: 0;
+  display: block;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/*subheader 样式*/
+.subheader {
+  height: 4.4rem;
+  background: #190d07;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 1;
+}
+.subheader h4 {
+  height: 100%;
+  width: 100%;
+  line-height: 4.4rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.subheader a {
+  position: absolute;
+  color: #6d3f28;
+  font-family: Consolas;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subheader a:nth-child(1) {
+  font-size: 3.5rem;
+  left: 4%;
+}
+.subheader a:nth-child(2) {
+  right: 4%;
+  width: 5.33333333%;
+}
+.subheader a:nth-child(2) i {
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  background: #6d3f28;
+  margin: 4px 0;
+}
+/*右侧菜单 */
+.rihgt_menu_list {
+  position: fixed;
+  right: -38.66666667%;
+  top: 0;
+  width: 38.66666667%;
+  height: 100%;
+  background: #2e1a10;
+  z-index: 10;
+  transition: all 0.5s;
+}
+.rihgt_menu_list .logo {
+  height: 4.4rem;
+  width: 100%;
+  position: relative;
+}
+.rihgt_menu_list .logo a {
+  width: 13.79310345%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10.34482759%;
+  z-index: 4;
+  height: auto;
+}
+.rihgt_menu_list .logo i {
+  display: block;
+  height: 0.3rem;
+  background: #6d3f28;
+  width: 100%;
+  margin: 4px 0;
+}
+.rihgt_menu_list .a_nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.rihgt_menu_list .a_nav .mid {
+  width: 100%;
+  height: 41.97901049%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.rihgt_menu_list a {
+  display: block;
+  height: 14.28571429%;
+  min-height: 1.4rem;
+  font-size: 1.4rem;
+  color: #fff;
+  text-align: left;
+  text-indent: 1em;
+}
+.showRightMenu {
+  right: 0;
+}
+.hideRightMenu {
+  right: -38.66666667%;
+}

@@ -1,0 +1,627 @@
+/*index 样式*/
+.index .main {
+  height: 100%;
+  background: url(../images/index-bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.index .main_nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 41.33333333%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.index .main_nav .logo_box {
+  padding: 2.3rem 0 3.6rem;
+}
+.index .main_nav .logo_box img {
+  width: 52.25806452%;
+}
+.index .main_nav a {
+  display: block;
+  color: #fff;
+  height: 5.3rem;
+  line-height: 5.3rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.index .main_nav a:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  width: 54.19354839%;
+  height: 1px ;
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, #ffffff 60%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, #ffffff 60%, rgba(0, 0, 0, 0.2) 100%);
+}
+.index .main_nav a:hover {
+  color: #c98010;
+}
+/*funs 、康体娱乐 样式*/
+.funs {
+  background: rgba(0, 0, 0, 0.84);
+  height: 100%;
+}
+.funs .img_box {
+  padding-top: 4.4rem;
+}
+.funs li {
+  height: 15.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.funs li a {
+  display: block;
+  height: 100%;
+  line-height: 3.3rem;
+  font-size: 1.3rem;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  text-indent: 2em;
+}
+.funs li img {
+  width: 100%;
+  height: 100%;
+}
+.funs li:nth-child(1) {
+  text-align: center;
+}
+.funs li:nth-child(1) p {
+  position: absolute;
+  font-size: 1.2rem;
+  padding-top: 3.5rem;
+  line-height: 1.8rem;
+  width: 100%;
+}
+/*温泉，样式*/
+.wenquan {
+  background: #190d07;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.wenquan .lunbo_box {
+  position: absolute;
+  height: 37.48125937%;
+  top: 4.4rem;
+  width: 100%;
+  overflow: hidden;
+}
+.wenquan .dot_box {
+  position: absolute;
+  bottom: 1.3rem;
+  height: 0.8rem;
+  width: 100%;
+}
+.wenquan .dot_box i {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #a2a19f;
+  border-radius: 50%;
+  margin: 0 0.93333333%;
+}
+.wenquan .dot_box .ac {
+  background: #fff;
+}
+.wenquan .img_box {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.wenquan .img_box li {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.wenquan .img_box li:nth-child(2) {
+  left: 100%;
+}
+.wenquan .img_box li:nth-child(3) {
+  left: 200%;
+}
+.wenquan .img_box img {
+  height: 100%;
+  width: 100%;
+}
+.wenquan .context {
+  position: absolute;
+  top: 47.97601199%;
+  width: 100%;
+  background: #190d07;
+}
+.wenquan h5 {
+  height: 4.2rem;
+  line-height: 4.2rem;
+  font-size: 1.6rem;
+}
+.wenquan p {
+  line-height: 1.6rem;
+  font-size: 1.4rem;
+}
+.wenquan .book_btn {
+  width: 32.53333333%;
+  height: 2.9rem;
+  color: #fff;
+  border: 2px solid #fff;
+  line-height: 2.9rem;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 4.87256372%;
+  z-index: 3;
+  background: #190d07;
+}
+/*会议会展 样式*/
+.meetings ul {
+  background: rgba(0, 0, 0, 0.84);
+}
+/*会议会展 报告厅 样式*/
+.meetings .room_list {
+  height: 37rem;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+.meetings .room_list:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.meetings .room_list .room_wrap {
+  position: absolute;
+  left: 14.66666667%;
+  top: 0;
+  width: 70.66666667%;
+  height: 100%;
+}
+.meetings .room_list .room {
+  /*width:530/@w*100%;*/
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  /*left:110/@w*100%;*/
+  top: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+/*.meetings .room_list .room .marsk{position:absolute;width:100%;height:100%;background:#000;left:0;top:0;opacity:0.5;z-index: 0;}*/
+.meetings .room_list .room dl {
+  color: #baada9;
+  text-align: left;
+  padding: 1.1rem  1.7rem;
+}
+.meetings .room_list .room dt {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.meetings .room_list .room dd {
+  line-height: 1.75rem;
+  font-size: 1.1rem;
+}
+.meetings .room_list .room dd:nth-child(2),
+.meetings .room_list .room dd:nth-child(3) {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.meetings .room_list .room dd:nth-child(4) {
+  padding-top: 0.6rem;
+}
+.meetings .room_list .box_for_pic {
+  height: 23rem;
+  background: url(../images/room1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.meetings .room_list .box_for_pic:before {
+  content: '';
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: rgba(0, 0, 0, 0.84);
+  border-radius: 50%;
+  z-index: 1;
+}
+/*宴会 样式*/
+.meetings .room_fairwell .box_for_pic {
+  background: url(../images/room2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*宴会 会议室 样式*/
+.meetings .room_business .box_for_pic {
+  background: url(../images/room3.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*婚宴婚庆  样式*/
+.weedings {
+  overflow: hidden;
+}
+.weedings .weedings_img_box {
+  width: 100%;
+  height: 50.67466267%;
+  top: 22.48875562%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  perspective: 400px;
+  overflow: hidden;
+}
+.weedings .weedings_img_box .item_list {
+  width: 60.26666667%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  border-radius: 1rem;
+}
+.weedings .weedings_img_box .item {
+  width: 100%;
+  height: 100%;
+  background: url(../images/weedings_pic.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.weedings .weedings_img_box .item:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 12rem solid rgba(255, 255, 255, 0.3);
+  border-right: 12.4rem solid transparent;
+}
+.weedings .weedings_img_box .item:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 12rem solid rgba(255, 255, 255, 0.3);
+  border-left: 12.4rem solid transparent;
+}
+.weedings .weedings_txt_box {
+  width: 100%;
+  position: absolute;
+  top: 75%;
+}
+.weedings .weedings_txt_box p {
+  position: absolute;
+  width: 100%;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+/*舒适客房样式*/
+/*豪华套房样式*/
+.rooms_details .setments_list {
+  padding-top: 0.8rem;
+}
+.rooms_details .lunbo_box {
+  height: 33.73313343%;
+}
+.rooms_details .context {
+  top: 40.47976012%;
+}
+.rooms_details .setments_list li {
+  font-size: 0.9rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+}
+.rooms_details .setments_list li i {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 0.6rem;
+}
+/*房间预定 样式*/
+.book_rooms {
+  position: relative;
+  top: 4.4rem;
+}
+.book_rooms .lunbo_box {
+  position: relative;
+  top: 0;
+}
+.book_rooms .book_list_details {
+  background: #2e1a10;
+  text-align: left;
+  padding-bottom: 5rem;
+}
+.book_rooms .book_list_details h6 {
+  height: 4.2rem;
+  line-height: 4.2rem;
+  font-size: 1.5rem;
+  padding-left: 4%;
+}
+.book_rooms .book_list_details label {
+  display: block;
+  background: #190d07;
+  padding: 0 4%;
+  position: relative;
+  font-size: 1.3rem;
+  height: 4.3rem;
+  line-height: 4.3rem;
+}
+.book_rooms .book_list_details label:before {
+  content: '';
+  position: absolute;
+  width: 92%;
+  height: 0.1rem;
+  background: #2e1a10;
+  bottom: -0.1rem;
+  z-index: 1;
+}
+.book_rooms .book_list_details label .book_nums_box {
+  position: absolute;
+  right: 4%;
+  top: 0;
+}
+.book_rooms .book_list_details label .book_nums_box a {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 0.2rem solid #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: relative;
+}
+.book_rooms .book_list_details label .book_nums_box a:before {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 0.2rem;
+  background: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.book_rooms .book_list_details label .book_nums_box .reduce_btn:after {
+  content: '';
+  height: 70%;
+  width: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+.book_rooms .book_list_details label .book_nums_box span {
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+.book_rooms .book_list_details label:nth-child(5) {
+  margin-top: 0.6rem;
+}
+.book_rooms .book_list_details label:nth-child(5) .sex_centain {
+  position: absolute;
+  right: 4%;
+  top: 0;
+}
+.book_rooms .book_list_details label:nth-child(5) .sex_centain input {
+  vertical-align: middle;
+}
+.book_rooms .book_list_details label:nth-child(5) .sex_centain input:nth-child(2) {
+  margin-left: 1rem;
+}
+.book_rooms .book_list_details input {
+  background: none;
+  color: #fff;
+}
+/*入房需知， 客房介绍 样式*/
+.book_rooms .book_list_details .tabs_rooms_rules {
+  background: #190d07;
+  margin-top: 0.6rem;
+}
+.book_rooms .book_list_details .mention_titles {
+  display: flex;
+  border-bottom: 0.2rem solid #2e1a10;
+  font-size: 1.3rem;
+  height: 4.3rem;
+  line-height: 4.3rem;
+}
+.book_rooms .book_list_details .mention_titles > div {
+  width: 50%;
+  padding-left: 4%;
+  position: relative;
+}
+.book_rooms .book_list_details .mention_titles > div:before {
+  content: '';
+  width: 100%;
+  height: 0;
+  position: absolute;
+  border-bottom: 0.3rem solid transparent;
+  bottom: -0.3rem;
+  left: 0;
+}
+.book_rooms .book_list_details .mention_titles .ac:before {
+  border-color: #9f7b59;
+}
+.book_rooms .book_list_details .detail_rules {
+  line-height: 2.1rem;
+  font-size: 0.6rem;
+  padding-top: 2rem;
+}
+.book_rooms .book_list_details .detail_rules p {
+  padding: 0 4%;
+}
+.book_rooms .money_check {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  text-align: left;
+  background: #2e1a10;
+  line-height: 5rem;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+.book_rooms .money_check span {
+  padding-left: 4%;
+  display: block;
+}
+.book_rooms .money_check a {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 37.2%;
+  background: #9f7b59;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  bottom: 0;
+}
+/*餐饮美食 样式*/
+.foods_details .context .time {
+  font-size: 1.3rem;
+}
+.foods_details .setments_list li {
+  height: 1.8rem;
+  line-height: 1.8rem;
+}
+.foods_details .setments_list li:nth-child(1) {
+  height: 3rem;
+  line-height: 3rem;
+}
+.foods_details .cell_book_foods {
+  height: 10.5rem;
+  width: 60%;
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 1rem;
+  text-align: center;
+  color: #0096ff;
+  display: none;
+}
+.foods_details .cell_book_foods:before {
+  content: '';
+  height: 4.1rem;
+  width: 0.1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  background: #d5d5d5;
+  z-index: 2;
+}
+.foods_details .cell_book_foods h3 {
+  height: 6.4rem;
+  line-height: 6.4rem;
+  font-size: 1.4rem;
+  border-bottom: 0.1rem solid #d5d5d5;
+}
+.foods_details .cell_book_foods button {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.7rem;
+  border: none;
+  background: #fff;
+  border-radius: 1rem;
+}
+.foods_details .cell_book_foods button:nth-child(2) {
+  left: 0;
+}
+.foods_details .cell_book_foods button:nth-child(1) {
+  right: 0;
+}
+/*商务办公 样式*/
+.business_introduce_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.business_introduce_box .box_box {
+  width: 85.6%;
+  height: 69.56521739%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #656565;
+}
+.business_rooms_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  background: #fff;
+  border-radius: 1rem;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
+.business_rooms_box .pic_box {
+  height: 54.74137931%;
+}
+.business_rooms_box .pic_box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.business_rooms_box p {
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 62.5%;
+  width: 100%;
+}
